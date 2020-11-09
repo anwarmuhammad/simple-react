@@ -20,6 +20,5 @@ class LikeButton extends React.Component {
   }
 }
 
-
-
-ReactDOM.render(<LikeButton />, document.getElementById('like_button_container'));
+const domContainer = document.querySelector('#like_button_container');
+ReactDOM.render(e(LikeButton), domContainer);
